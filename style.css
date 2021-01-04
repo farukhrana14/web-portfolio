@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }    
+h2{
+    font-size: 40px;
+}
 .name-highlight{
     color: coral;
 }
@@ -13,19 +16,29 @@ h1{
     border: 10px solid red;
     border-style: hidden;
     height: 50%;
-    width: 30%;
-    margin-left: 5%;
-    padding-left: 2%;
+    width: 35%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 5%;
     float: left;
+    margin-bottom: 450px;
 }   
 
 .half-width img{
-    width: 100%;
+    width: 115%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
 section{
     height: 500px;
 }
@@ -36,6 +49,4 @@ section{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
-    
-
 }
