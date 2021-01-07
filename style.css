@@ -144,3 +144,46 @@ border-radius: 10px;
     max-height: 400px;
     border-radius: 10px;
 }
+/*
+.work-inquiry {
+    background-image: url(images/work.png);
+    max-width: 500px;
+    max-height:250px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    
+}
+*/
+#work-bg-img{
+    text-align: center;
+    height: 850px;
+}
+#work-bg-img.container{
+   background-image: url(images/work.png);
+   margin-left: 0 px;
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-size: 750px;
+  
+}
+
+#work-inquiry{
+   margin-top: 70px;
+   font-size: 40px;
+   color: white;
+   float: left;
+   margin-left: 450px;
+}
+
+#chat-button{
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin-right: 450px; 
+
+ }
+ #section-work-inquiry{
+     margin-top: -250px;
+     margin-bottom: -250px;
+ }
